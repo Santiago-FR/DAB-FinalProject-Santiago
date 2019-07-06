@@ -34,7 +34,9 @@ Main page will do al the work.
 Select a city > 
 
 -app will display a map of all locations (customized markers), popup will provide location name and some additional general info
+
 -app will display city infrastructure table of locations with contact details, web page url, phone address, etc. 
+
 -app will recommend similar cities
 
 
