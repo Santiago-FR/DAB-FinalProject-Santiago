@@ -576,6 +576,8 @@ const cultedu = [{name:"African Lion Safari",location:[43.34249115,-80.27240753]
 {name:"Windsor's Community Museum",location:[42.318509999999996,-83.0425],City:"Windsor",Type:"Museums"}
 ];
 
+
+
 //custom markers
 var greenIcon = L.icon({
   iconUrl: '/static/images/parks.png',
@@ -648,17 +650,22 @@ var cityCltlayer = L.layerGroup(cultplaces);
 console.log(parks[0].name);
 
 // add even listeners to markers
-for(var i=1;i<cityparks.length;i++){
+for(var i=0;i<cityparks.length;i++){
   cityparks[i].on("click",function(){
-    document.getElementById("gfu").value = (parks[i].Type)
-  });
+  document.getElementById("gfu").value = parks[0].name
+});
 }
-for(var i=0;i<cityplaces.length;i++){
-  cityplaces[i].on("click",function(){console.log("click!")});
+for (var i=0;i<cityplaces.length;i++){
+  cityplaces[i].on("click",function(){
+  document.getElementById("gfu").value = ohsites[0].name
+});
 }
-for(var i=0;i<cultplaces.length;i++){
-  cultplaces[i].on("click",function(){console.log("click!")});
+for (var i=0;i<cultplaces.length;i++){
+  cultplaces[i].on("click",function(){
+  document.getElementById("gfu").value = cultedu[0].name
+});
 }
+
 
 // set variables to hold layers
 

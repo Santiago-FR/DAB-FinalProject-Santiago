@@ -1,4 +1,4 @@
-// const ohsites = [{name:"Adelaide Hunter Hoodless Homestead ",location:[43.23694,-80.29667],Date:"1839 (completed)",Designated:"1995",City:"Brant County",Type:"NHistoric",Description:"The childhood home of activist and organizer Adelaide Hunter Hoodless, educational reformer and co-founder of the Women's Institute, the National Council of Women of Canada and the Victorian Order of Nurses"},
+// export const ohsites = [{name:"Adelaide Hunter Hoodless Homestead ",location:[43.23694,-80.29667],Date:"1839 (completed)",Designated:"1995",City:"Brant County",Type:"NHistoric",Description:"The childhood home of activist and organizer Adelaide Hunter Hoodless, educational reformer and co-founder of the Women's Institute, the National Council of Women of Canada and the Victorian Order of Nurses"},
 // {name:"Algoma Central Engine House ",location:[46.5281611,-84.3505389],Date:"1912 (completed)",Designated:"1992",City:"Sault Ste. Marie",Type:"NHistoric",Description:"A well-preserved example of a brick engine house, and the first in Canada to have an internal turntable"},
 // {name:"Algonquin Provincial Park ",location:[45.58417,-78.35833],Date:"1893 (established)",Designated:"1992",City:"Nipissing - Unorganized South Part (primarily)",Type:"NHistoric",Description:"The first provincial park in Canada, noted for its pioneering role in park management, visitor interpretation programs and the development of park buildings and structures, as well as its role in inspiring artists such as the Group of Seven"},
 // {name:"Amherstburg First Baptist Church ",location:[42.1026833,-83.1057361],Date:"1849 (completed)",Designated:"2012",City:"Amherstburg ",Type:"NHistoric",Description:"A modest wooden church that was a major Underground Railroad church in Upper Canada and that played a crucial role in the development of the Black community in Ontario"},
@@ -275,7 +275,7 @@
 // {name:"Women's College Hospital ",location:[43.661686, -79.387497],Date:"1883 (founded)",Designated:"1995",City:"Toronto",Type:"PHistoric",Description:"Founded at a time when women's access to medical education and hospital practice was extremely restricted, the hospital uniquely emphasizes women's health issues and women as health care providers; symbolic of the struggle and contribution of Canadian women to the medical profession"}
 // ];
 
-// const parks = [{name:"Aaron Provincial Park",location:[49.760403100000005,-92.65614559999999],Type:"Provintial _Park"},
+// export const parks = [{name:"Aaron Provincial Park",location:[49.760403100000005,-92.65614559999999],Type:"Provintial _Park"},
 // {name:"Algonquin Provincial Park",location:[45.8371591,-78.37912390000001],Type:"Provintial _Park"},
 // {name:"Arrowhead Provincial Park",location:[45.3915527,-79.21467829999999],Type:"Provintial _Park"},
 // {name:"Arrow Lake Provincial Park",location:[48.176964,-90.2272712],Type:"Provintial _Park"},
@@ -396,7 +396,7 @@
 // {name:"Bruce Peninsula National Park",location:[45.2288114,-81.5232556],Type:"National_Park"}
 // ];
 
-// const cultedu = [{name:"African Lion Safari",location:[43.34249115,-80.27240753],City:"Cambridge",Type:"Zoos"},
+// export const cultedu = [{name:"African Lion Safari",location:[43.34249115,-80.27240753],City:"Cambridge",Type:"Zoos"},
 // {name:"Springridge Farm",location:[43.4843048,-79.9059813],City:"Milton",Type:"Zoos"},
 // {name:"Twin Valley Animal Park",location:[43.15668,-80.12974],City:"Brantford",Type:"Zoos"},
 // {name:"High Park",location:[43.64762816,-79.46393967],City:"Toronto",Type:"Zoos"},
