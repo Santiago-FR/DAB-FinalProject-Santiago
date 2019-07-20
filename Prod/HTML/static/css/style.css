@@ -27,19 +27,20 @@ body.light-mode {
 
   #pageh{
     display: block;
-    max-width: 800px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid darkgreen;
     border-bottom: 1.5px solid darkgreen;
     text-align:center;
-    color: green;
-    background: silver;
+    color: red;
+    background: silver; 
+    opacity: 0.75;
   }
 
   #map{
-    max-width: 800px;
-    height: 400px;
+    max-width: 700px;
+    height: 350px;
     border: 3px solid darkgreen;
     border-top: 1.5px solid darkgreen;
     display: block;
@@ -48,14 +49,15 @@ body.light-mode {
   }
 
   #facts{
-    max-width: 800px;
-    height: 200px;
+    max-width: 700px;
+    height: 80px;
     border: 3px solid darkgreen;
     border-top: 1.5px solid darkgreen;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background: silver;
+    opacity: 0.75;
   }
  
 #fudiv{
@@ -63,9 +65,12 @@ body.light-mode {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  margin-top: 9px;
+  margin-bottom: auto;
   padding:4px;
   width:20em;
-}
+  background: silver;
+  /* opacity: 1; */
+  }
 
  
