@@ -1,4 +1,4 @@
-# DAB-FinalProject-Santiago
+# DAB-Final Project-Santiago
 
 Project Proposal
 
@@ -11,43 +11,39 @@ Finding information about kid friendly activities on major north American cities
 
 Having a place were information can be visualised for each the locations for the specific city.
 
-Rank the cities by amount of options and recommend similar cities.
-
-
 Data set in detail:
 
-Yelp Data (json) as source of Kid friendly restaurants, places for learning family time activities.
+Yelp Data, Google API (json) as source of Kid friendly places for learning and family time activities.
 
 Web scrape for list of all north American cities considered to be major cities.
 
-Data information on natural parks and urban parks.
+Data information on provincial parks and national parks.
 
-Fake data user input? Visitors per year.
+Input from marker selection on map to launch Google search in widget.
 
 
 Final Product:
 
-Web/mobile app
+Web app
 
-Main page will do al the work.
+Main page will do all the work.
 
-Select a city > 
 
 -app will display a map of all locations (customized markers), popup will provide location name and additional info
 
--app will display city infrastructure table of locations with contact details, web page url, phone address, etc. 
+-app event listener on market will setup Google search results on location based on name. 
 
--app will recommend similar cities
+-app will allow user to interact with the map and filter for the type of place they are interested in visiting.
+
+-app will have button to change background. ( begin exploring dark mode)
 
 
 Time allocation:
+
+ETL
 
 HTML
 
 JS, leaflet
 
 Python app
-
-Deployment to Heroku -  AWS RDS
-
-Machine learning for recommendations (if time allows)
